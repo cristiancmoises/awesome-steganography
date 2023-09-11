@@ -81,7 +81,7 @@ _*Comando MTR usado para listar a mensagem_
      git clone https://github.com/stratosphereips/steganoroute.git
      cd./steganoroute
      iptables -I INPUT -p icmp --icmp-type 8 -j DROP
-     python3 ./steganoroute.py -i lo -m "MATRIX tem você!" -eu
+     python3 ./steganoroute.py -i lo -m "MATRIX tem você!" 
      mtr -t seuipnaLAN
 _*Comando MTR usado para listar a mensagem_
 
@@ -104,7 +104,7 @@ Uma ferramenta leve que usa espaços em branco e tabulações para ocultar infor
 <img src="https://github.com/cristiancmoises/awesome-steganography/assets/86272521/069d520a-d797-4151-85a7-88280d0c5e33" width=2% height=2%> No Gentoo:
 
      wget https://darkside.com.au/snow/snow.zip
-     unzip neve.zip
+     unzip snow.zip
      cd snow
      make
      cp snow /bin/
@@ -132,12 +132,14 @@ Steghide funciona criando uma lista aleatória de bits dentro de seu arquivo fic
 
 <img src="https://github.com/cristiancmoises/awesome-steganography/assets/86272521/069d520a-d797-4151-85a7-88280d0c5e33" width=2% height=2%> No Gentoo:
 
-     ./configure
-     make
-     make check
-     make install
-     steghide embed -ef arquivosecreto.txt -cf foto.jpg -sf fotoX.jpg
-     steghide extract –sf photoX.jpg
+    wget https://ufpr.dl.sourceforge.net/project/steghide/steghide/0.5.1/steghide-0.5.1.zip
+    cd steghide
+    ./configure 
+    make
+    make check
+    make install 
+    steghide embed -ef topsecretfile.txt -cf photo.jpg -sf photoX.jpg
+    steghide extract –sf photoX.jpg
      
 <p align="center">
 <img src="https://github.com/cristiancmoises/awesome-steganography/assets/86272521/403986bb-44f1-4771-bfaf-12667d6872e3" width=160% height=100% >
