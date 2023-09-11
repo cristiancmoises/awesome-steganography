@@ -69,7 +69,7 @@ Essa ferramenta, o remetente, cria vários saltos falsos e faz com que eles resp
      git clone https://github.com/stratosphereips/steganoroute.git
      cd./steganoroute
      iptables -I INPUT -p icmp --icmp-type 8 -j DROP
-     python3 ./steganoroute.py -i lo -m "MATRIX tem você!" -eu
+     python3 ./steganoroute.py -i lo -m "MATRIX tem você!" -l
      mtr -t seuipnaLAN
 _*Comando MTR usado para listar a mensagem_
 
