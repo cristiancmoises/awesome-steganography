@@ -130,3 +130,5 @@ One of the most popular steganographic tools today. It is a simple command line 
     steghide embed -ef topsecretfile.txt -cf photo.jpg -sf photoX.jpg
     steghide extract –sf photoX.jpg
 
+<p align="center">
+<img src="https://github.com/cristiancmoises/awesome-steganography/assets/86272521/403986bb-44f1-4771-bfaf-12667d6872e3" width=160% height=100% >
