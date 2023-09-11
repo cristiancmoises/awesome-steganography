@@ -118,11 +118,14 @@ One of the most popular steganographic tools today. It is a simple command line 
 <img src="https://github.com/cristiancmoises/awesome-steganography/assets/86272521/565f2738-dc37-4989-8e2c-685a857d8798" width=2% height=2%> Running:   
 
     apt install steghide
+    cd steghide
     steghide embed -ef topsecretfile.txt -cf photo.jpg -sf photoX.jpg
     steghide extract –sf photoX.jpg
 
 <img src="https://github.com/cristiancmoises/awesome-steganography/assets/86272521/069d520a-d797-4151-85a7-88280d0c5e33" width=2% height=2%> On Gentoo:
 
+    wget https://ufpr.dl.sourceforge.net/project/steghide/steghide/0.5.1/steghide-0.5.1.zip
+    cd steghide
     ./configure 
     make
     make check
