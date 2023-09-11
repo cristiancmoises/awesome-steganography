@@ -113,7 +113,7 @@ Uma ferramenta leve que usa espaços em branco e tabulações para ocultar infor
 
 # Steghide
 
-<img src="https://github.com/cristiancmoises/awesome-steganography/assets/86272521/43aa8701-9aa3-4fbf-ab64-44e1757d81aa" largura=45% altura=45%>
+<img src="https://github.com/cristiancmoises/awesome-steganography/assets/86272521/43aa8701-9aa3-4fbf-ab64-44e1757d81aa" width=45% height=45%>
 
 Uma das ferramentas esteganográficas mais populares da atualidade. 
 É um programa simples de linha de comando que codifica texto dentro de imagens. 
