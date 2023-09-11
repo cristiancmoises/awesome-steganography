@@ -4,7 +4,7 @@
 <p/>
   
 ## Awesome Tools for Steganography 🕵️
-
+_Para o tutorial em português clique [aqui 🇧🇷](https://github.com/cristiancmoises/awesome-steganography/blob/main/Leia-me.md)_
 # Table Of Contents
 
 * [`Introduction`](#Steganography?)
