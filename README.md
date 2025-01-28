@@ -125,6 +125,6 @@ One of the most popular steganographic tools today. It is a simple command line 
     steghide extract –sf photoX.jpg
 
 
-## Star History
+# 🌟 Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=cristiancmoises/awesome-steganography&type=Date)](https://star-history.com/#cristiancmoises/awesome-steganography&Date)
