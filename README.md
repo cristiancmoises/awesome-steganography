@@ -7,19 +7,10 @@
 _Para o tutorial em português clique [aqui 🇧🇷](https://github.com/cristiancmoises/awesome-steganography/blob/main/Leia-me.md)_
 # Table Of Contents
 
-* [`Introduction`](#Steganography?)
 * [`Hidden with GUI`](#Stegoshare)
 * [`Hidden with TCP`](#Steganoroute)
 * [`Low file size`](#Snow)
 * [`Popular Tool`](#Steghide)
-  
-## Steganography?
-> Steganography is the art and science of writing hidden messages in such a way that no-one apart from the sender and intended recipient even realizes there is a hidden message.By contrast, cryptography obscures the meaning of a message, but it does not conceal the fact that there is a message. Today, the term steganography includes the concealment of digital information within computer files. For example, the sender might start with an ordinary-looking image file, then adjust the color of every 100th pixel to correspond to a letter in the alphabet—a change so subtle that someone who isn't actively looking for it is unlikely to notice it.
-The larger the cover message is (in data content terms—number of bits) relative to the hidden message, the easier it is to hide the letter.
-Stated somewhat more formally, the objective for making steganographic encoding difficult to detect is to ensure that the changes to the carrier (the original signal) due to the injection of the payload (the signal to covertly embed) are visually (and ideally, statistically) negligible; that is to say, the changes are indistinguishable from the noise floor of the carrier.
-For this reason, digital pictures (which contain large amounts of data) are used to hide messages on the Internet and on other communication media. For example: a 24-bit bitmap will have 8 bits representing each of the three color values (red, green, and blue) at each pixel. If we consider just the blue there will be 28 different values of blue. The difference between 11111111 and 11111110 in the value for blue intensity is likely to be undetectable by the human eye. Therefore, the least significant bit can be used (more or less undetectably) for something else other than color information. If we do it with the green and the red as well we can get one letter of ASCII text for every three pixels. 
-
-
 
 # Stegoshare:
 <img src="https://github.com/cristiancmoises/awesome-steganography/assets/86272521/1734d34c-541d-4696-8f05-4fb8fc88690e" width=45% height="45%">
@@ -133,5 +124,7 @@ One of the most popular steganographic tools today. It is a simple command line 
     steghide embed -ef topsecretfile.txt -cf photo.jpg -sf photoX.jpg
     steghide extract –sf photoX.jpg
 
-<p align="center">
-<img src="https://github.com/cristiancmoises/awesome-steganography/assets/86272521/403986bb-44f1-4771-bfaf-12667d6872e3" width=160% height=100% >
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=cristiancmoises/torando&type=Date)](https://star-history.com/#cristiancmoises/torando&Date)
