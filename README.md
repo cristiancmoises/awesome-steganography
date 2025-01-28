@@ -127,4 +127,4 @@ One of the most popular steganographic tools today. It is a simple command line 
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=cristiancmoises/torando&type=Date)](https://star-history.com/#cristiancmoises/torando&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=cristiancmoises/torando&type=Date)](https://star-history.com/#cristiancmoises/awesome-steganography&Date)
