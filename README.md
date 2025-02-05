@@ -1,4 +1,5 @@
 # Awesome Steganography
+[![DOI](https://zenodo.org/badge/689800896.svg)](https://doi.org/10.5281/zenodo.14810073)
 <p align="center">
 <img src="https://github.com/cristiancmoises/awesome-steganography/assets/86272521/15b81a67-2409-45ff-82a3-b5c825b81079" width=20% height=20% class="center"/> 
 <p/>
